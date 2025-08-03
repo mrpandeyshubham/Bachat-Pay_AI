@@ -1,0 +1,418 @@
+UNIFIED
+UPI
+ PAYMENTS INTERFACЕ
+India's
+Unified Payment Gateway
+for real-time payment transactions.
+Unified Payment Interface (UPI)
+SEND
+NPCI
+भारतीय राष्ट्रीय भुगतान निगम
+NATIONAL PAYMENTS CORPORATION OF INDIA
+NPCI
+भारतीय राष्ट्रीय भुगतान निगम
+NATIONAL PAYMENTS CORPORATION OF INDIA UNIFIED PAYMENTS INTERFACE
+Contents
+Background .............................................................................................3
+Introduction to UPI............................................................................……4
+Business uses...........................................................................................6
+Business benefits.......................................................................................9
+Participants in the UPI ecosystem....................................................…......13
+Roles and Responsibilities..........................................................................12
+Onboarding........................................................................15
+De-boarding.........................................................................16
+Use cases..................................................................................................17
+Acts.............................................................................................................19
+1. Background
+The genesis of India’s unified payment solution
+Prior to 2016, India used a number of different systems to transfer money between
+banks. The traditional forms included RTGS, IMPS and NEFT. With the plethora of
+systems, rules and growing paper burden, there was a need for a unified system that
+could automate and standardise India’s payment platforms.
+In 2016, NPCI set out with a mandate to change the face of India’s payment systems.
+It developed the Unified Payments Interface (UPI) as an architecture framework with
+a set of standard Application Programming Interface (API) specifications to facilitate
+online payments. The aim was to simplify and provide a single interface across all
+NPCI systems, thereby creating interoperability and a superior customer experience.
+The pilot program, with 21 member banks, was launched on 11th April, 2016, by Dr.
+Raghuram G. Rajan, Governor, RBI, in Mumbai. From 25th August, 2016, a growing
+number of banks started to upload their UPI enabled apps to the Google Play store.
+2. Introduction
+Real-time payments with the Unified Payments Interface (UPI)
+The Unified Payments Interface (UPI) is a revolutionary, user-friendly, real time
+payment solution that facilitates inter-bank transactions, and enables greater digital
+payments adoption in the country. Developed and launched by the National
+Payments Corporation of India in 2016, UPI is now one of the most preferred
+payment solutions in India, with over a billion transactions every month.
+UPI’s core function is to support easy and secure money transfers between bank
+accounts. It does this by adding multiple bank accounts into a single mobile
+application, allowing for seamless fund transfers and merchant payments from one
+place. It also enables ‘peer to peer’ and ‘peer to merchant’ collection requests, which
+can be scheduled and paid as requested.
+Payments can be made using a UPI ID, UPI Number, Account number, and an Indian
+Financial System Code (IFSC). Payment security is as per applicable RBI guidelines
+using a 1-click 2-factor authentication where the second factor of authentication is the
+UPI PIN. UPI is also available through the Unstructured Supplementary Services
+Data (USSD) channel to enable UPI members to cater to users of feature phones.
+Types of transactions supported by UPI
+A. Financial transactions
+UPI supports the following financial transactions:
+Pay Request:
+A transaction where the initiating customer ‘pushes’ funds to the intended beneficiary.
+Payment address includes mobile number and MMID, account number with IFSC, and
+Virtual ID.
+Collect Request:
+A transaction where the customer is ‘pulling’ funds from the intended remitter by using a
+Virtual ID.
+B. Non-financial transactions
+UPI will support the following types of non-financial transactions on any PSP app.
+Registration for mobile banking *
+One Time Password (OTP) generation
+Set/change PIN
+Transaction status check
+Raising disputes/queries
+*Mobile banking registration is only possible if the mobile number (which is to be
+registered) is already registered with the issuer bank for SMS /mobile alerts.
+UPI can be accessed on all major platforms such as Android and iOS with apps
+developed by members for versions of Android 4.2.2 and iOS 8.1 and above.
+3. Business Uses
+What are the business uses of UPI?
+Universal uses
+UPI provides the following capabilities through a set of Application Programming
+Interfaces (APIs).
+Using a personal mobile as the primary device for all payments, including person
+to person, person to entity, and entity to person.
+Using a personal mobile to ‘Pay’ someone (push) as well as ‘Collect’ from
+someone (pull).
+Using a mobile number, card number, and account number in a unified way. In
+addition, the ability to pay and collect using ‘UPI IDs’ that are ‘aliases’ to the VPA.
+Making payments by providing an address without having to ever provide
+account details or credentials on third party applications or websites.
+Sending ‘collect’ requests to others (person to person or entity to person) with a
+‘pay by’ date, which allows customers to pay at a later date without blocking the
+money in the account.
+Pre-authorising multiple recurring payments (utilities, school fees, subscriptions,
+etc.) with a one-time secure authentication and rule-based access, similar to
+ECS.
+Enabling all PSPs to use a standard set of APIs for any-to-any push and pull
+payments.
+Using PSP bank’s sponsored UPI applications, which enable payments from any
+account using a UPI ID by entering the UPI PIN.
+Using a fully interoperable system across all PSPs without having silos and
+closed systems.
+Making payments with one-click two-factor authentication, using a personal
+phone, and without any acquiring devices or physical tokens.
+UPI Autopay
+UPI autopay allows customers to set recurring payments for their UPI
+transactions.
+Recurring payments up to INR 2,000 can be set at the frequency desired.
+A one-time authorisation needs to be provided by the customer.
+RuPay card
+A first-of-its-kind global card payment network was developed by NPCI in India and
+enabled by UPI for wide acceptance at shops, ATMs, and online.
+Bharat Interface for Money (BHIM) app
+BHIM is a UPI enabled app that lets customers make simple payment transactions
+quickly and easily. Customers can make instant bank-to-bank payments, pay and
+collect money using just a mobile number or UPI ID, or scan and pay using a QR
+code.
+UPI Lite
+Based on current trends, it is estimated that a large percentage of future digital
+payment transactions will be of low-value transactions below Rs. 200. UPI Lite is a
+new customer-friendly pre-approved payment solution that utilises existing protocols
+to enable these low value transactions without placing transaction traffic loads on
+core banking systems in real-time. Issuing banks can allocate a refillable ‘on-device
+stored value’ for their existing UPI app using customers who opt for UPI Lite. As per
+current mandates, a ‘stored value’ balance limit of Rs. 2,000 is available, which the
+customer can use for offline transactions below Rs. 200 and replenish as necessary
+from a UPI linked bank account.
+a) For transactions and on-device store value refills, UPI PIN is required.
+b) For UPI Lite services, customer opt-in consent is required.
+c) Key features:
+Balance available on home screen
+Top-up when prompted
+1FA transactions (device biometric / pattern validation for transaction
+authentication to be provided)
+Disable UPI Lite services (Residual balances are credited back to the customer)
+Daily SMS notifications for UPI Lite transactions.
+Bank enabled Pay Requests
+A customer can make a pay request by ‘pushing’ funds to the beneficiary using their
+Account Number/IFS Code, Mobile Number/MMID, and UPI ID, which is also known
+as a Virtual Address.
+Bank enabled Collect Requests
+A customer can make a Collect Request transaction where the customer can ‘pull’
+funds from the remitter by using their UPI ID, which is known as a Virtual Address. In
+case of Pull transactions, the customer will have the option to define the expiry time
+of the Collect Request (up to 45 days). In case the customer has not defined the
+expiry time, the default time of 30 minutes will apply. The Payment System Provider
+(PSP) has to provide a customer with the option of defining a minimum validity of 1
+minute, in case the customer is selecting an expiry time.
+UPI Intent based payments
+For UPI Intent based transactions, UPI users have the flexibility to make payments at
+the time of online checkout by selecting from any of the UPI certified apps installed
+on their mobile phones. The customer can conveniently make payments without
+switching between applications. The moment a customer selects ‘Pay by UPI’ during
+the check-out stage on a merchant app, all the UPI apps linked to the embedded
+merchant app, or other UPI enabled apps that intend to initiate the payment, are
+displayed. The customer can then select a preferred UPI enabled app, which opens
+with the merchant’s payment details. The customer will then need to authenticate
+with their UPI PIN to complete a secure transaction, or the payment will be declined.
+UPI 123 Pay
+This service is designed to be more inclusive and reach over 400 million feature
+phone users in the country. The service uses an account number and phone number
+while leveraging Dual Tone Multi-Frequency (DTMF) signalling technology and
+follows the UPI two-factor authentication protocol for transactions.
+UPI for ASBA (IPO)
+Customers can provide their UPI ID as a payment option while subscribing to
+IPOs on the National Stock Exchange (NSE) and Bombay Stock Exchange
+(BSE). All they need to do is tell their brokers to provide their UPI ID as the
+payment option while making the IPO application.
+Customers can enjoy the instant fund transfer experience of UPI while
+subscribing to an IPO
+Instant mandate creation ensures real-time application submission
+Customer support for transaction-related issues
+4. Business Benefits
+What are the business benefits of UPI?
+Universal benefits
+Mobile-first customisable design
+Developed to embrace the smartphone boom in India and customers shifting to
+digital and mobile-based solutions, the mobile phone has been defined as the
+primary device for payment authorization. This transforms the acquiring infrastructure
+requirements to make them simple, low-cost, and universal.
+Push and pull payments for innovative use-cases
+Payments can be initiated by either the sender (payer) or the receiver (payee).
+For pay requests: the initiating customer ‘pushes’ funds to the intended
+beneficiary.
+For collect requests: the customer ‘pulls’ funds from the intended sender using the
+UPI ID.
+User-friendly, single-click, two-factor authentication
+UPI follows the one-click, two-factor authentication protocol.
+When a transfer transaction is initiated using a smart phone, the device fingerprint
+(IMEI number or other technical detail unique to the device) is passed as the first
+factor of authentication.
+The second factor is the UPI PIN number, which has to be physically keyed in by
+the user/ sender on their initiating device - usually a mobile phone.
+Easily identified across payment options
+The UPI ID creates a common identifier for the customer to send or receive
+money from anyone.
+It provides the user with a single, unified interface for all payment transactions,
+across all UPI linked accounts.
+Interoperability from authentication to payment institutions
+UPI allows for full interoperability between multiple identifiers such as a mobile
+number and new UPI ID across all UPI-based payment apps and the institutions
+that participate in the UPI ecosystem.
+It allows money to be transferred instantly across UPI linked bank accounts in the
+ecosystem.
+Flexibility for Third Party/Merchant/Developer
+Based on the business requirements, UPI offers 3rd party/merchants/developers
+options ranging from simple integration options such as intent or web collect, to
+complex and detail oriented designs through SDK and API models.
+Exponential innovation
+UPI offers Application Programming Interfaces (APIs) that are minimalistic, fully
+functional, and allow for innovations in user interface, convenience features,
+authentication schemes, and mobile devices to be incorporated without having to
+change the core API structure.
+Available on feature phones and voice-based payments
+UPI functionality enables feature phone and voice-based payments. In essence, a
+user does not need to have a smartphone and internet connectivity to make a UPI
+payment.
+For Banks
+High-security high speed payment transactions
+Single-click, two-factor authentication
+Universal application for transactions
+Low cost by leveraging existing infrastructure
+Safer, secured and innovative
+Payment basis Single/ Unique Identifier
+Enables seamless merchant transactions
+Scalable collections and disbursements
+For merchants
+Seamless fund collection from customers - single identifiers
+No risk of storing customer’s virtual address like in cards
+Ability to accept payments from customers not having credit/debit cards
+Suitable for e-com and m-com transactions
+Resolves the challenges of exact change cash payments, cash
+security/portability, or Cash on Delivery issues
+Single-click 2FA facility for the customer - seamless Pull
+In-App Payments (IAP)
+For customers
+Round-the-clock availability
+Single application for accessing different bank accounts.
+Conveniently make utility bill payments, over-the-counter (OTC) payments, and
+QR Code (Scan and Pay) payments.
+Make merchant payments with a single application or in-app payments
+Use of Virtual ID is more secure, no credential sharing
+Single-click authentication
+Ability to raise complaints from mobile apps directly
+Support for non-financial transactions
+UPI also enables non-financial transactions such as:
+Mobile Banking Registration
+One Time Password (OTP) generation
+UPI PIN Set/Change
+UPI transaction status check
+5. Participants
+Who are the participants in the UPI ecosystem?
+NPCI
+NPCI is the owner, network operator, service provider, and coordinator of the UPI
+Network.
+Banks
+Banks and payment banks with an RBI-approved mobile banking license and IMPS
+capability are eligible for UPI. Banks or PPIs should broadly perform the
+functions/roles mentioned below:
+Payer PSP - Member bank as a Payer PSP can onboard a customer into a UPI
+app, allowing the customer to register for UPI services and provide options to
+approve a financial transaction or non-financial request wherever necessary.
+Payee PSP - A bank in the role of Payee PSP can onboard a customer/merchant
+to receive money or raise a collect request. This is also known as a
+beneficiary/resolving PSP.
+Remitter Bank - All UPI users need to have a banking account with a UPI
+enabled bank. While performing a transaction, the user’s bank account will be
+debited. The remitting bank also holds the responsibility of authenticating the UPI
+PIN set by the customer.
+Beneficiary Bank - Any credit going to a UPI user will be credited to a
+beneficiary’s bank account. The bank receiving the funds in UPI transactions will
+be acting as a beneficiary bank.
+Bank Account holders / Customers
+Any customer who is on-boarded by a bank with a UPI enabled account and a UPI ID
+can utilise the services.
+Merchants
+Participating merchants are those who are on-boarded by their banks to accept UPI
+enabled payments from customers.
+Corporates
+UPI also provides the ability for large technology companies, 3rd party processors,
+and aggregators to connect to banks and provide extensive services to end
+consumers.
+Roles and Responsibilities
+NPCI
+1) NPCI is the owner, network operator, service provider, and coordinator of the UPI
+Network.
+2) NPCI reserves the right to either operate and maintain the UPI network on its
+own or provide or operate necessary services through third party service
+providers.
+3) NPCI will provide and maintain the network infrastructure relevant to the
+operation of the UPI platform, maintain uptime, and ensure timely settlements to
+banks.
+4) NPCI may revise the UPI architecture and its procedural guidelines as and when
+required.
+5) NPCI has the right to call for documents relating to the architecture, operating
+model, and other technology related aspects of the UPI solution which the
+bank/PPI/PSP is planning to develop or has developed.
+6) All certification stages will require sign-off from the concerned UPI team.
+7) NPCI may notify PSP and TPAP of any problems encountered in the UPI
+platform, that are attributable to the telecommunication network, as well as any
+complaints received from customers from time to time.
+8) NPCI issues circulars from time to time, to disclose major decisions, to relevant
+stakeholders, which all banks/PPIs/ PSPs will have to adhere to.
+On-boarding
+The Payment Service Provider/member should be a regulated entity by RBI under
+the Banking Regulations Act 1949, should be authorised by RBI for providing mobile
+banking service.
+The member should comply with the Procedural Guidelines, certification requirements
+operating and risk guidelines and circulars issued by NPCI from time to time.
+The bank should be live on IMPS. (PPI is not required to be part of IMPS)
+Additionally, any bank which intends to participate in UPI as a PSP, should ensure that while
+the bank’s technology platform can be outsourced, its functions ‘as a PSP’ cannot be
+outsourced.
+This implies that the PSP Bank has an equal ownership of other banks’ customers’ data as its
+own customer base. Furthermore, the PSP has to provide an audit report for the data centre
+and PSP App by a CISA equivalent auditor.
+Qualified Security Assessors (QSAs) empanelled by the PCI Council will conduct audits at
+least once annually. The QSA will verify the app and the following:
+a. System level Security
+b. Network / Data Centre Security
+c. Risk tools to be adequate
+d. Procedures and Policies
+e. Annual Certification process
+In addition, the member has to provide a declaration in writing to abide by:
+i. All the terms and conditions of the Unified Payments Interface Procedural Guidelines and
+Circulars, notifications, and directions are issued by NPCI from time to time.
+ii. All the guidelines issued by relevant authorities from time to time with respect to payment
+system operations.
+User on-boarding in UPI:
+Customers can be on-boarded onto UPI through the platforms mentioned below:
+1) The BHIM Mobile Application
+2) UPI Bank PSP Apps
+3) Third Party UPI Compliant Apps
+4) *99# (USSD)
+5) Each bank’s mobile banking apps that support UPI
+6) 123Pay – Unified Payment Interface (UPI) for feature phone and voice-based payments
+The tools listed above cover the complete gamut of mobile devices in India and also cover
+both the data base of customers connected to mobile data and customers not connected to
+mobile data.
+De-boarding
+Relevant documents need to be shared by the TPAP and the bank, as detailed below, for deboarding from UPI
+TPAP will share the set of confirmations and clearances for de-boarding as given
+below:
+a. Request letter to the sponsor bank/ NPCI regarding their interest in de-boarding as
+ an UPI TPAP, stating reasons or issues with certain timelines.
+b. Request letter to the sponsor bank/ NPCI stating whether they would want to continue as
+ a merchant app in the ecosystem.
+c. Confirmation on dispute handling for 180 days even after de-boarding the TPAP
+ on UPI payment for customer convenience. After the completion of 180 days, data will
+ be purged and confirmation shall be provided to NPCI regarding no storage of payment
+ data with the application system.
+d. TPAP to confirm the data elements that will be available with them for customer
+ dispute handling for the time period.
+e. TPAP must notify their UPI users about the suspension of UPI services via push
+ notifications/ email or SMS.
+f. TPAP to confirm that only a new version of their app (which will not act as a TPAP) will
+ be available on play store/ appstore and the same will not have UPI CL in it.
+From sponsor banks:
+a. Request letter from sponsor banks stating the TPAP’s request of de-boarding
+themselves as a TPAP.
+b. Request letter from the sponsor bank stating whether the TPAP would want to continue
+as a merchant app in the ecosystem, if any.
+6. Use Cases
+How is the UPI service used?
+Fulfilling a money request
+Shom receives a notification on his phone. It is a message from a UPI ID asking him
+if he wishes to send Rs. 5000. He recognises that the message is from his younger
+brother, who is studying in another city. After calling his brother and checking with
+him, Shom then uses his own UPI app to accept the fund request and authenticate
+the transaction with his M-PIN. In a few seconds, he gets a successful transaction
+notification SMS on his phone from his bank. His brother calls to thank him for the
+instant fund transfer.
+In-app payment within the same mobile of the customer.
+Ashok’ is a student who uses a personal MyStar app video application to select, pay
+for and watch a movie for, Rs. 25 on his Android enabled phone. He banks with
+DiBank (the PSP in this case) and uses their UPI-enabled mobile application.
+The MyStar application creates a UPI payment link with all the necessary parameters
+populated. As DiBank PSP app is registered for UPI link, it starts the app and takes
+Ashok straight to the pay screen with all the relevant values pre-populated. Ashok
+verifies the information shown on the screen and clicks ‘pay’ to complete the
+payment and enjoy the movie he selected.
+DTH payment from home
+‘Nadeem’ is a DTH subscriber who wishes to pay his on-demand subscription fee. He
+selects the channel and clicks ‘Buy Now’. The DTH program shows the details along
+with a QR code for UPI payment. Nadeem opens the UPI application on his mobile
+and scans the QR code given on his TV screen, which takes him straight to the pay
+screen with all values pre-populated from the QR code, which contains the standard
+UPI link. Nadeem verifies the information on the pay screen and clicks ‘pay’ to
+complete the payment. He gets a confirmation on his mobile and the TV channel is
+automatically turned on for his viewing pleasure.
+UPI Autopay
+Reshma uses this capability to automatically pay her OTT content platform’s monthly
+subscription fees of Rs. 500. She sets a UPI recurring mandate at ‘check out’ and
+provides the one-time UPI PIN in her app. Subsequent fee payments will be autodeducted from the customer’s linked bank account.
+Credit card bill payment
+Vaishanvi is clearing up around the house when she finds last month’s credit card bill
+that she had forgotten to pay. Today is the last day for payments, and she realises
+that she needs to pay the amount before she is charged interest. She uses her
+smartphone to open her UPI enabled app and clicks on the credit card payment
+option. She enters her card details and it auto-populates the amount she needs to
+pay. She is able to pay by using her secret M-PIN to authenticate the transaction.
+Merchant payment using BHIM app
+Saira wants to treat her best friend who is visiting her from the USA. Saira takes her
+friend to a trendy cafe where they proceed to order coffee and snacks. At the time of
+paying the bill, Saira realises that her credit card has passed its validity date. So she
+smoothly takes out her smartphone, accesses her UPI enabled BHIM app, and uses
+the scan to pay feature to pay the cafe bill.
+Non-financial transaction - change UPI M-PIN
+Ramakant wants to change his M-PIN for security purposes. He enters his old UPI
+PIN and preferred new UPI PIN (the UPI PIN that he would like to set) and clicks on
+Submit. After clicking on submit, Ramakant gets a notification of either a successful
+change of his M-PIN or a failure. In the event of failure, he will need to submit the
+request again.
+7. Acts
+Banking Regulations Act 1949
+Payment and Settlement Systems Act, 2007 (PSS Act)
+Section 43A of IT Act, 2000 and the IT Rules, 2011
+Section 25 of the Payment and Settlement Systems Act, 2007 (PSS Act)
