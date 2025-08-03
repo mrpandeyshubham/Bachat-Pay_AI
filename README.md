@@ -177,8 +177,8 @@ slides/Project template for AI Agent case.pptx
 ## 👤 Author  
 
 **Shubham Kumar Pandey**  
-- [LinkedIn](https://www.linkedin.com/)  
-- [GitHub](https://github.com/)  
+- [LinkedIn](https://www.linkedin.com/in/shubhampandeyji/)  
+- [GitHub](https://github.com/mrpandeyshubham)
 
 ---
 
